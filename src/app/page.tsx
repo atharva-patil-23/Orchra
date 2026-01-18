@@ -1,11 +1,14 @@
+import { Button } from "@/components/ui/button";
+
 import { cn } from "@/lib/utils";
 
 const page = () => {
   const something = true;
 
   return (
-    <div className={cn("text-red-500")}>
-      Hello world
+    <div className="min-h-screen min-w-screen flex items-center justify-center">
+      <Button>Click me</Button>
+
     </div>
   )
 }
